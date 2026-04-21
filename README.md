@@ -165,3 +165,13 @@ Comprender cómo un problema de procesamiento de datos es implementado a nivel m
 
 Aunque este problema puede resolverse fácilmente en lenguajes de alto nivel, el propósito de la práctica es implementar **cómo lo resolvería la arquitectura**, no únicamente obtener el resultado.
 
+## PRACTICA 
+Neyra Mendez Angel Cassiel  23212030
+Variante: B
+
+Descripción:
+El programa analiza códigos HTTP desde stdin y utiliza un arreglo en memoria para contar la frecuencia de cada código.
+
+Lógica:
+Se incrementa la posición correspondiente al código leído y posteriormente se recorre el arreglo para encontrar el código más frecuente.
+
