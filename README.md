@@ -177,3 +177,22 @@ Se incrementa la posición correspondiente al código leído y posteriormente se
 
 Asciinema : https://asciinema.org/a/oqUmo1SOyorXIyF6
 
+Prueba con 1000 registros
+Descripción
+
+Se generó un archivo con 1000 códigos de estado HTTP para probar el funcionamiento del programa.
+
+Ejecución
+cat data/logs_1000.txt | ./analyzer
+Resultado
+
+El programa procesa los 1000 registros y muestra el código HTTP más frecuente.
+
+Ejemplo:
+
+=== Mini Cloud Log Analyzer ===
+Código más frecuente: 204
+Observación
+
+El archivo logs_1000.txt contiene un código HTTP por línea, lo que permite que el programa en ARM64 lo procese correctamente.
+
