@@ -175,3 +175,5 @@ El programa analiza códigos HTTP desde stdin y utiliza un arreglo en memoria pa
 Lógica:
 Se incrementa la posición correspondiente al código leído y posteriormente se recorre el arreglo para encontrar el código más frecuente.
 
+Asciinema : https://asciinema.org/a/oqUmo1SOyorXIyF6
+
