@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EbtZGzoI)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23647334)
 
 # Práctica 1
 
@@ -6,6 +8,7 @@
 **Modalidad:** Individual
 **Entorno de trabajo:** AWS Ubuntu ARM64 + GitHub Classroom
 **Lenguaje:** ARM64 Assembly (GNU Assembler) + Bash + GNU Make
+### Autor: Neyra Mendez Angel Cassiel 23212030
 
 ---
 
@@ -163,3 +166,33 @@ Comprender cómo un problema de procesamiento de datos es implementado a nivel m
 
 Aunque este problema puede resolverse fácilmente en lenguajes de alto nivel, el propósito de la práctica es implementar **cómo lo resolvería la arquitectura**, no únicamente obtener el resultado.
 
+## PRACTICA 
+Neyra Mendez Angel Cassiel  23212030
+Variante: B
+
+Descripción:
+El programa analiza códigos HTTP desde stdin y utiliza un arreglo en memoria para contar la frecuencia de cada código.
+
+Lógica:
+Se incrementa la posición correspondiente al código leído y posteriormente se recorre el arreglo para encontrar el código más frecuente.
+
+Asciinema : https://asciinema.org/a/oqUmo1SOyorXIyF6
+
+# Prueba con 1000 registros
+### Descripción
+Se generó un archivo con 1000 códigos de estado HTTP para probar el funcionamiento del programa.
+
+### Ejecución
+cat data/logs_1000.txt | ./analyzer
+Resultado
+
+El programa procesa los 1000 registros y muestra el código HTTP más frecuente.
+
+### Ejemplo:
+
+=== Mini Cloud Log Analyzer ===
+Código más frecuente: 204
+Observación
+
+El archivo logs_1000.txt contiene un código HTTP por línea, lo que permite que el programa en ARM64 lo procese correctamente.
+asciinema: https://asciinema.org/a/RyeMe4OcXN9BZHfK
