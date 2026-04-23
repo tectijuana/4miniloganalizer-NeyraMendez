@@ -195,3 +195,4 @@ Código más frecuente: 204
 Observación
 
 El archivo logs_1000.txt contiene un código HTTP por línea, lo que permite que el programa en ARM64 lo procese correctamente.
+asciinema: https://asciinema.org/a/RyeMe4OcXN9BZHfK
