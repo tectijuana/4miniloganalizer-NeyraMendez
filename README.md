@@ -8,7 +8,7 @@
 **Modalidad:** Individual
 **Entorno de trabajo:** AWS Ubuntu ARM64 + GitHub Classroom
 **Lenguaje:** ARM64 Assembly (GNU Assembler) + Bash + GNU Make
-### Autor: Neyra Mendez Angel Cassiel 23210203
+### Autor: Neyra Mendez Angel Cassiel 23212030
 
 ---
 
